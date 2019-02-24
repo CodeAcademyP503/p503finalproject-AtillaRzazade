@@ -1,3 +1,3 @@
 # P503FinalProject
 
-Unable to add Database, cannot find the error :/
+Unable to add Database, unable to find the error :/
