@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="/img/test" type="image/x-icon">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+</head>
+
+<body>
+    <section class="navbar">
+        <div class="nav">
+            <div class="logo"><img src="img/logo.png" alt=""></div>
+            <ul>
+                <a href="#">
+                    <li>Ana Sehifesi</li>
+                </a>
+                <a href="../YeniEmlak/Axtarish/search.html">
+                    <li>Axtarishi</li>
+                </a>
+                <a href="../YeniEmlak/Rieltor/rieltor.html">
+                    <li>Rieltor</li>
+                </a>
+                <a href="">
+                    <li>Faydalı</li>
+                </a>
+                <a href="">
+                    <li>Əlaqə</li>
+                </a>
+
+
+                <form action="../YeniEmlak/Elanver/elanver.html" method="get">
+
+                    <button type="submit">+ Elan Ver</button>
+                </form>
+
+            </ul>
+        </div>
+
+    </section>
+
+    <section id="select">
+        <div class="col">
+            <label>
+                <span>Əmlakın növü</span>
+                <select name="emlak" id="emlak">
+                    <option value="1">Bina ev menzil</option>
+                    <option value="2">Heyet evi / Villa</option>
+                    <option value="3">Torpaq sahesi</option>
+                    <option value="4">Obyekt</option>
+                    <option value="5">Ofis</option>
+                    <option value="6">Qaraj</option>
+                    <option value="7">Diger</option>
+                </select>
+            </label>
+            <label>
+                <span>Elanın növü</span>
+                <select name="elanNov" id="elanNov">
+                    <option value="1">Satilir</option>
+                    <option value="2">Kiraye ayliq</option>
+                    <option value="3">Kiraye gunluk</option>
+                </select>
+            </label>
+            <label>
+                <span>Seher</span>
+                <select name="city" id="city">
+                    <option value="1">Butun seherler</option>
+                    <option value="2">Baki</option>
+                    <option value="3">Abseron</option>
+                    <option value="4">Gence</option>
+                    <option value="5">Sabirabad</option>
+                    <option value="6">Lenkeran</option>
+                    <option value="7">Quba</option>
+                </select>
+            </label>
+        </div>
+
+        <div class="colSecond">
+            <label>
+                        <span>Qiymət</span>
+                        <select name="price" id="price">
+                            <option value="0">Min</option>
+                            <option value="1">500</option>
+                            <option value="2">1000</option>
+                            <option value="3">1500</option>
+                            <option value="4">2000</option>
+                            <option value="5">2500</option>
+                        </select>
+                        <select name="price" id="price">
+                                <option value="0">Max</option>
+                                <option value="1">500</option>
+                                <option value="2">1000</option>
+                                <option value="3">1500</option>
+                                <option value="4">2000</option>
+                                <option value="5">2500</option>
+                            </select>
+                    </label>
+
+            <label>
+                            <span>Mərtəbə</span>
+                            <select name="floor" id="floor">
+                             
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">4</option>
+                            </select>
+                            <select name="floor" id="floor">
+                                   
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                        </label>
+
+            <label>
+                                <span>Otaq</span>
+                                <select name="room" id="room">
+                                 
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">4</option>
+                                </select>
+                                <select name="room" id="room">
+                                       
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                            </label>
+
+
+            <label>
+                                    <span>Sahesi</span>
+                                    <select name="area" id="area">
+                                     
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">4</option>
+                                    </select>
+                                    <select name="area" id="area">
+                                            <option value="0"></option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
+                                </label>
+
+
+        </div>
+        <section class="banner">
+            <img src="img/instaqram.jpg" alt="">
+            <img src="img/gunluk_ev.jpg" alt="">
+            <img src="img/istban.jpg" alt="">
+            <img src="img/ucuz_kiraye.jpg" alt="">
+            <img src="img/yayaz.jpg" alt="">
+            <img src="img/kredit.jpg" alt="">
+            <img src="img/yenigun.jpg" alt="">
+            <img src="img/yenitemir.jpg" alt="">
+            <img src="img/yeniavto.jpg" alt="">
+        </section>
+
+
+
+        <div class="footer">
+            <p><i class="fas fa-search"></i>Ətraflı Axtarış</p>
+            <p><input type="checkbox">Yalnız şəkilli</p>
+            <p><input type="checkbox">Kredit</p>
+            <button>Axtar</button>
+        </div>
+
+    </section>
+    <div class="login">
+        <button><i class="fas fa-caret-right"></i>İstifadəçi girişi</button>
+        <button>Elan verilmə qaydası</button>
+        <button>Elana düzəliş və silmək</button>
+        <button>Bakıda evlərin qiyməti</button>
+        <button>Ödənişli elan verilməsi</button>
+
+    </div>
+    <div class="clear"></div>
+    <section class="gallery">
+        <div class="Vip">Vip Elanlar</div>
+        <div class="grid-box">
+            <div class="grid-item">
+                <div class="top"><span>130.000</span><span>AZN / Satılır</span></div>
+                <img src="img/ev.jpg" alt="">
+                <div class="bottom">
+                    <p><b>Bina ev menzil 72 </b>m2 Bakı, Xətai rayonu</p>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="top"><span>65.000</span><span>AZN / Satılır</span></div>
+                <img src="img/10.jpg" alt="">
+                <div class="bottom">
+                    <p><b>Bina ev menzil 72 </b>m2 Bakı, Xətai rayonu</p>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="top"><span>33.000</span><span>AZN / Satılır</span></div>
+                <img src="img/1.jpg" alt="">
+                <div class="bottom">
+                    <p><b>Bina ev menzil 72 </b>m2 Bakı, Xətai rayonu</p>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="top"><span>10.000</span><span>AZN / Satılır</span></div>
+                <img src="img/2.jpg" alt="">
+                <div class="bottom">
+                    <p><b>Bina ev menzil 72 </b>m2 Bakı, Xətai rayonu</p>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="top"><span>11</span><span>AZN / Satılır</span></div>
+                <img src="img/3.jpg" alt="">
+                <div class="bottom">
+                    <p><b>Bina ev menzil 72 </b>m2 Bakı, Xətai rayonu</p>
+                </div>
+            </div>
+
+
+            <div class="grid-item">
+                <div class="top"><span>180.000</span><span>AZN / Satılır</span></div>
+                <img src="img/4.jpg" alt="">
+                <div class="bottom">
+                    <p><b>Bina ev menzil 72 </b>m2 Bakı, Xətai rayonu</p>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="top"><span>130.000</span><span>AZN / Satılır</span></div>
+                <img src="img/5.jpg" alt="">
+                <div class="bottom">
+                    <p><b>Bina ev menzil 72 </b>m2 Bakı, Xətai rayonu</p>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="top"><span>130.000</span><span>AZN / Satılır</span></div>
+                <img src="img/6.jpeg" alt="">
+                <div class="bottom">
+                    <p><b>Bina ev menzil 72 </b>m2 Bakı, Xətai rayonu</p>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="top"><span>130.000</span><span>AZN / Satılır</span></div>
+                <img src="img/7.jpg" alt="">
+                <div class="bottom">
+                    <p><b>Bina ev menzil 72 </b>m2 Bakı, Xətai rayonu</p>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="top"><span>130.000</span><span>AZN / Satılır</span></div>
+                <img src="img/8.jpg" alt="">
+                <div class="bottom">
+                    <p><b>Bina ev menzil 72 </b>m2 Bakı, Xətai rayonu</p>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="top"><span>30.000</span><span>AZN / Satılır</span></div>
+                <img src="img/9.jpg" alt="">
+                <div class="bottom">
+                    <p><b>Bina ev menzil 72 </b>m2 Bakı, Xətai rayonu</p>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="top"><span>170.000</span><span>AZN / Satılır</span></div>
+                <img src="img/10.jpg" alt="">
+                <div class="bottom">
+                    <p><b>Bina ev menzil 72 </b>m2 Bakı, Xətai rayonu</p>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="top"><span>70.000</span><span>AZN / Satılır</span></div>
+                <img src="img/11.jpg" alt="">
+                <div class="bottom">
+                    <p><b>Bina ev menzil 72 </b>m2 Bakı, Xətai rayonu</p>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="top"><span>200.000</span><span>AZN / Satılır</span></div>
+                <img src="img/ev.jpg" alt="">
+                <div class="bottom">
+                    <p><b>Bina ev menzil 72 </b>m2 Bakı, Xətai rayonu</p>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="top"><span>90.000</span><span>AZN / Satılır</span></div>
+                <img src="img/ev.jpg" alt="">
+                <div class="bottom">
+                    <p><b>Bina ev menzil 72 </b>m2 Bakı, Xətai rayonu</p>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="top"><span>80.000</span><span>AZN / Satılır</span></div>
+                <img src="img/ev.jpg" alt="">
+                <div class="bottom">
+                    <p><b>Bina ev menzil 72 </b>m2 Bakı, Xətai rayonu</p>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="top"><span>55.000</span><span>AZN / Satılır</span></div>
+                <img src="img/ev.jpg" alt="">
+                <div class="bottom">
+                    <p><b>Bina ev menzil 72 </b>m2 Bakı, Xətai rayonu</p>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="top"><span>130.000</span><span>AZN / Satılır</span></div>
+                <img src="img/ev.jpg" alt="">
+                <div class="bottom">
+                    <p><b>Bina ev menzil 72 </b>m2 Bakı, Xətai rayonu</p>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="top"><span>130.000</span><span>AZN / Satılır</span></div>
+                <img src="img/ev.jpg" alt="">
+                <div class="bottom">
+                    <p><b>Bina ev menzil 72 </b>m2 Bakı, Xətai rayonu</p>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="top"><span>130.000</span><span>AZN / Satılır</span></div>
+                <img src="img/ev.jpg" alt="">
+                <div class="bottom">
+                    <p><b>Bina ev menzil 72 </b>m2 Bakı, Xətai rayonu</p>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="top"><span>130.000</span><span>AZN / Satılır</span></div>
+                <img src="img/ev.jpg" alt="">
+                <div class="bottom">
+                    <p><b>Bina ev menzil 72 </b>m2 Bakı, Xətai rayonu</p>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="top"><span>130.000</span><span>AZN / Satılır</span></div>
+                <img src="img/ev.jpg" alt="">
+                <div class="bottom">
+                    <p><b>Bina ev menzil 72 </b>m2 Bakı, Xətai rayonu</p>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="top"><span>130.000</span><span>AZN / Satılır</span></div>
+                <img src="img/ev.jpg" alt="">
+                <div class="bottom">
+                    <p><b>Bina ev menzil 72 </b>m2 Bakı, Xətai rayonu</p>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="top"><span>130.000</span><span>AZN / Satılır</span></div>
+                <img src="img/ev.jpg" alt="">
+                <div class="bottom">
+                    <p><b>Bina ev menzil 72 </b>m2 Bakı, Xətai rayonu</p>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="top"><span>130.000</span><span>AZN / Satılır</span></div>
+                <img src="img/ev.jpg" alt="">
+                <div class="bottom">
+                    <p><b>Bina ev menzil 72 </b>m2 Bakı, Xətai rayonu</p>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="top"><span>130.000</span><span>AZN / Satılır</span></div>
+                <img src="img/ev.jpg" alt="">
+                <div class="bottom">
+                    <p><b>Bina ev menzil 72 </b>m2 Bakı, Xətai rayonu</p>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="top"><span>130.000</span><span>AZN / Satılır</span></div>
+                <img src="img/ev.jpg" alt="">
+                <div class="bottom">
+                    <p><b>Bina ev menzil 72 </b>m2 Bakı, Xətai rayonu</p>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="top"><span>130.000</span><span>AZN / Satılır</span></div>
+                <img src="img/ev.jpg" alt="">
+                <div class="bottom">
+                    <p><b>Bina ev menzil 72 </b>m2 Bakı, Xətai rayonu</p>
+                </div>
+            </div>
+
+
+            <div class="grid-item">
+
+                <img src="img/vip_add.png" alt="">
+
+            </div>
+
+        </div>
+
+        <section class="middleGallery">
+            <div class="middleVip">Satılır / Son əlavə olunanlar</div>
+            <div class="grid-box">
+                <div class="grid-item">
+                    <div class="top"><span>50.000</span><span>AZN / Satılır</span></div>
+                    <img src="img/ev.jpg" alt="">
+                    <div class="bottom">
+                        <p><b>Bina ev menzil 72 </b>m2 Bakı, Xətai rayonu</p>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="top"><span>160.000</span><span>AZN / Satılır</span></div>
+                    <img src="img/son1.jpeg" alt="">
+                    <div class="bottom">
+                        <p><b>Bina ev menzil 72 </b>m2 Bakı, Xətai rayonu</p>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="top"><span>66.000</span><span>AZN / Satılır</span></div>
+                    <img src="img/son2.jpg" alt="">
+                    <div class="bottom">
+                        <p><b>Bina ev menzil 72 </b>m2 Bakı, Xətai rayonu</p>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="top"><span>170.000</span><span>AZN / Satılır</span></div>
+                    <img src="img/son3.jpg" alt="">
+                    <div class="bottom">
+                        <p><b>Bina ev menzil 72 </b>m2 Bakı, Xətai rayonu</p>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="top"><span>30.000</span><span>AZN / Satılır</span></div>
+                    <img src="img/son4.jpg" alt="">
+                    <div class="bottom">
+                        <p><b>Bina ev menzil 72 </b>m2 Bakı, Xətai rayonu</p>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="top"><span>10.000</span><span>AZN / Satılır</span></div>
+                    <img src="img/son5.jpg" alt="">
+                    <div class="bottom">
+                        <p><b>Bina ev menzil 72 </b>m2 Bakı, Xətai rayonu</p>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="top"><span>120.000</span><span>AZN / Satılır</span></div>
+                    <img src="img/son2.jpg" alt="">
+                    <div class="bottom">
+                        <p><b>Bina ev menzil 72 </b>m2 Bakı, Xətai rayonu</p>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="top"><span>137.000</span><span>AZN / Satılır</span></div>
+                    <img src="img/son3.jpg" alt="">
+                    <div class="bottom">
+                        <p><b>Bina ev menzil 72 </b>m2 Bakı, Xətai rayonu</p>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="top"><span>18.000</span><span>AZN / Satılır</span></div>
+                    <img src="img/son5.jpg" alt="">
+                    <div class="bottom">
+                        <p><b>Bina ev menzil 72 </b>m2 Bakı, Xətai rayonu</p>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="top"><span>16.000</span><span>AZN / Satılır</span></div>
+                    <img src="img/son2.jpg" alt="">
+                    <div class="bottom">
+                        <p><b>Bina ev menzil 72 </b>m2 Bakı, Xətai rayonu</p>
+                    </div>
+                </div>
+        </section>
+
+        <section class="middleGallery">
+            <div class="middleVip">Kirayə / Son əlavə olunanlar</div>
+            <div class="grid-box">
+                <div class="grid-item">
+                    <div class="top"><span>20</span><span>AZN / Satılır</span></div>
+                    <img src="img/kiraye1.jpeg" alt="">
+                    <div class="bottom">
+                        <p><b>Bina ev menzil 72 </b>m2 Bakı, Xətai rayonu</p>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="top"><span>25</span><span>AZN / Satılır</span></div>
+                    <img src="img/kiraye2.jpeg" alt="">
+                    <div class="bottom">
+                        <p><b>Bina ev menzil 72 </b>m2 Bakı, Xətai rayonu</p>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="top"><span>130</span><span>AZN / Satılır</span></div>
+                    <img src="img/kiraye3.jpg" alt="">
+                    <div class="bottom">
+                        <p><b>Bina ev menzil 72 </b>m2 Bakı, Xətai rayonu</p>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="top"><span>150</span><span>AZN / Satılır</span></div>
+                    <img src="img/kiraye4.jpg" alt="">
+                    <div class="bottom">
+                        <p><b>Bina ev menzil 72 </b>m2 Bakı, Xətai rayonu</p>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="top"><span>20</span><span>AZN / Satılır</span></div>
+                    <img src="img/kiraye5.jpg" alt="">
+                    <div class="bottom">
+                        <p><b>Bina ev menzil 72 </b>m2 Bakı, Xətai rayonu</p>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="top"><span>50</span><span>AZN / Satılır</span></div>
+                    <img src="img/kiraye3.jpg" alt="">
+                    <div class="bottom">
+                        <p><b>Bina ev menzil 72 </b>m2 Bakı, Xətai rayonu</p>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="top"><span>40</span><span>AZN / Satılır</span></div>
+                    <img src="img/kiraye1.jpeg" alt="">
+                    <div class="bottom">
+                        <p><b>Bina ev menzil 72 </b>m2 Bakı, Xətai rayonu</p>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="top"><span>70</span><span>AZN / Satılır</span></div>
+                    <img src="img/kiraye5.jpg" alt="">
+                    <div class="bottom">
+                        <p><b>Bina ev menzil 72 </b>m2 Bakı, Xətai rayonu</p>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="top"><span>30</span><span>AZN / Satılır</span></div>
+                    <img src="img/kiraye3.jpg" alt="">
+                    <div class="bottom">
+                        <p><b>Bina ev menzil 72 </b>m2 Bakı, Xətai rayonu</p>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="top"><span>10</span><span>AZN / Satılır</span></div>
+                    <img src="img/kiraye4.jpg" alt="">
+                    <div class="bottom">
+                        <p><b>Bina ev menzil 72 </b>m2 Bakı, Xətai rayonu</p>
+                    </div>
+
+                </div>
+
+        </section>
+        <section class="middleGallery">
+            <div class="Viptop">İstifadəçilərimiz</div>
+            <div class="container">
+                <div class="userlist">
+                    <ul>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+                        <li>Nicat Quliyev</li>
+
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+        <section class="middleGallery">
+            <div class="Vipbottom">Faydali Linkler</div>
+            <div class="container">
+                <div class="hashtag">
+                    <a href="#">Bura Haradi?</a>
+                    <a href="#">Azərbaycanlı Youtuber</a>
+                    <a href="#">Youtube/BuraHaradi</a>
+                    <a href="#">Facebook.com/Buraharadi0</a>
+                    <a href="#">Azərbaycanlı Youtuber</a>
+                    <a href="#">Youtube/BuraHaradi</a>
+                    <a href="#">Facebook.com/Buraharadi0</a>
+                    <a href="#">Facebook.com/Buraharadi0</a>
+                    <a href="#">Azərbaycanlı Youtuber</a>
+                    <a href="#">Youtube/BuraHaradi</a>
+                    <a href="#">Facebook.com/Buraharadi0</a>
+                    <a href="#">instagram.com/BuraHaradi0</a>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="footer">
+
+            <div class="footerBottom">
+                <div class="bottomText">
+                    <p>Sayt administrasiyası verilən elanlara görə məsuliyyət daşımır. Copyright © 2016. www.yeniemlak.az ! Bütün hüquqlar qorunur. Tel: (+994 55) 261 21 26; E-mail: info@yeniemlak.az</p>
+                </div>
+                <div class="bannerBottom">
+                    <img src="img/hit.gif" alt="">
+                    <img src="img/View.png" alt="">
+                    <img src="img/top100.gif" alt="">
+                </div>
+            </div>
+
+
+
+        </section>
+
+
+
+
+        <script>
+        </script>
+        <script src="script.js"></script>
+</body>
+
+</html>
