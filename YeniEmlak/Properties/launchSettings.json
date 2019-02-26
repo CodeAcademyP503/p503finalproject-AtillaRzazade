@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿{
   "iisSettings": {
     "windowsAuthentication": false, 
@@ -24,4 +25,32 @@
       }
     }
   }
+=======
+﻿{
+  "iisSettings": {
+    "windowsAuthentication": false, 
+    "anonymousAuthentication": true, 
+    "iisExpress": {
+      "applicationUrl": "http://localhost:54841",
+      "sslPort": 44392
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "YeniEmlak": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "applicationUrl": "https://localhost:5001;http://localhost:5000",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+>>>>>>> a6338ffe060c15c90e0a149ba25fa79f0ffbe7b8
 }

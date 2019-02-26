@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
@@ -6,4 +7,14 @@
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ]
   }
+=======
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Atilla\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Atilla\\.nuget\\packages",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ]
+  }
+>>>>>>> a6338ffe060c15c90e0a149ba25fa79f0ffbe7b8
 }
