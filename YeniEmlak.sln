@@ -1,10 +1,9 @@
-<<<<<<< HEAD
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.28307.168
+VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YeniEmlak", "YeniEmlak\YeniEmlak.csproj", "{CCC7D1AF-2F4F-4744-9C17-CF7C61347809}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YeniEmlakAspNetCore", "YeniEmlakAspNetCore\YeniEmlakAspNetCore.csproj", "{9EDC6A88-0877-48A9-AD09-3A3FDBEEFC6E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,42 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CCC7D1AF-2F4F-4744-9C17-CF7C61347809}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CCC7D1AF-2F4F-4744-9C17-CF7C61347809}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CCC7D1AF-2F4F-4744-9C17-CF7C61347809}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CCC7D1AF-2F4F-4744-9C17-CF7C61347809}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EDC6A88-0877-48A9-AD09-3A3FDBEEFC6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EDC6A88-0877-48A9-AD09-3A3FDBEEFC6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EDC6A88-0877-48A9-AD09-3A3FDBEEFC6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EDC6A88-0877-48A9-AD09-3A3FDBEEFC6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {20688D8C-EF62-49C4-81D3-6BD9C1703F6C}
+		SolutionGuid = {26B4ED17-A887-47A2-9925-0D92BA89D25B}
 	EndGlobalSection
 EndGlobal
-=======
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.168
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YeniEmlak", "YeniEmlak\YeniEmlak.csproj", "{CCC7D1AF-2F4F-4744-9C17-CF7C61347809}"
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CCC7D1AF-2F4F-4744-9C17-CF7C61347809}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CCC7D1AF-2F4F-4744-9C17-CF7C61347809}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CCC7D1AF-2F4F-4744-9C17-CF7C61347809}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CCC7D1AF-2F4F-4744-9C17-CF7C61347809}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {20688D8C-EF62-49C4-81D3-6BD9C1703F6C}
-	EndGlobalSection
-EndGlobal
->>>>>>> a6338ffe060c15c90e0a149ba25fa79f0ffbe7b8
