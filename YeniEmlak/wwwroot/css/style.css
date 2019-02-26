@@ -1,0 +1,481 @@
+.nav {
+    padding-left: 133px;
+    height: 50px;
+    background-color: #6F6F6F;
+}
+
+.nav button {
+    margin-left: 9pc;
+    position: absolute;
+    width: 140px;
+    background: #F6A828;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    top: 4px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
+
+.addAdvertisement {
+    position: relative;
+    margin-top: 7px;
+    display: inline-block;
+    top: 0pc;
+}
+
+.addAdvertisement a {
+    text-decoration-line: unset;
+    color: white;
+}
+
+.nav button:hover {
+    background-color: #FF860D;
+}
+
+.nav .logo {
+    display: inline-flex;
+    padding-left: 20px;
+    position: absolute;
+}
+
+.nav .logo img {
+    padding-top: 5px;
+}
+
+.nav ul {
+    position: absolute;
+    margin: 5px;
+    margin-left: 170px;
+    line-height: 3;
+    list-style: none;
+}
+
+.nav ul li {
+    float: left;
+    margin: 0 auto;
+    line-height: 20px;
+    font-size: 14px;
+    color: white;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.nav ul li:hover {
+    cursor: pointer;
+    color: orange;
+    transition: all .2s;
+}
+
+#select {
+    background: #84ae3e;
+    width: 625px;
+    height: 195px;
+    position: relative;
+    display: inline-block;
+    margin-left: 185px;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+
+#select .banner {
+    float: right;
+    position: relative;
+    display: inline-grid;
+    left: 370px;
+    bottom: 150px;
+}
+
+#select .banner img {
+    width: 170px;
+    margin-top: 10px;
+}
+
+#select .footer {
+    margin-top: 16px;
+    height: 30px;
+    width: 100%;
+    background-color: #6D8F34;
+    border-radius: 0px 0px 5px 5px;
+    line-height: 30px;
+    border-top: 1px solid #4A6122;
+    text-align: right;
+}
+
+#select .footer p:first-child i {
+    font-size: 15px;
+    padding-right: 3px;
+    font-weight: 900;
+}
+
+#select .footer p:nth-child(2) {
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+
+#select .footer button {
+    width: 100px;
+    top: 165px;
+    right: 0px;
+    color: white;
+    background: #F6A828;
+    border-radius: 0 0 5px;
+    border: none;
+    position: absolute;
+    height: 30px;
+}
+
+#select .footer button:hover {
+    background-color: #FF860D;
+    cursor: pointer;
+}
+
+#select .footer p {
+    color: white;
+    display: inline-block;
+    width: 120px;
+    float: inherit;
+    position: relative;
+    margin: 0px;
+    text-align: center;
+    left: 72px;
+}
+
+#select .col {
+    float: left;
+    width: 49%;
+    padding-top: 8px;
+}
+
+#select .col label {
+    height: 35px;
+    width: 290px;
+    display: block;
+    padding-top: 4px;
+    padding-left: 10px;
+    line-height: 35px;
+}
+
+#select .col span {
+    width: 100px;
+    height: 35px;
+    color: white;
+    display: inline-block;
+}
+
+#select .col select {
+    width: 180px;
+    height: 28px;
+    border-radius: 5px;
+}
+
+#select .col select option {
+    margin-left: 5px;
+}
+
+#select .colSecond {
+    display: inline-block;
+    width: 49%;
+    line-height: 35px;
+    padding-top: 8px;
+    padding-left: 12px;
+}
+
+#search .colSecond label {
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 10px;
+}
+
+#select .colSecond select {
+    width: 80px;
+    height: 28px;
+    border-radius: 5px;
+}
+
+#select .colSecond span {
+    width: 100px;
+    height: 35px;
+    color: white;
+    display: inline-block;
+}
+
+#select .button {
+    background: #6d8f34;
+    height: 32px;
+    width: 100%;
+    border-radius: 0px 0px 6px 6px;
+    margin-top: 15px;
+}
+
+.login {
+    position: absolute;
+    width: 160px;
+    padding-left: 0px;
+    margin-left: 15px;
+    display: inline-block;
+    top: 85px;
+}
+
+.login button:nth-child(1) {
+    background-color: #84ae3e;
+    color: white;
+    height: 28px;
+}
+
+.login button:nth-child(1):hover {
+    background-color: #F6A828;
+}
+
+.login button {
+    height: 22px;
+    margin-top: 12px;
+    border: 1px solid #84ae3e;
+    width: 160px;
+    background: #f4ffe2;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.login button:hover {
+    background-color: #FFDCAA;
+}
+
+.login button i {
+    position: relative;
+    right: 10px;
+}
+
+.gallery .Vip {
+    margin-left: 184px;
+    margin-top: 20px;
+    width: 90px;
+    border-left: 5px solid #F6A828;
+    text-align: center;
+    margin-bottom: -20px;
+}
+
+.gallery .grid-box {
+    width: 62%;
+    margin-left: 170px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery .grid-box .grid-item {
+    width: 146px;
+    margin-left: 15px;
+    margin-top: 60px;
+    height: 130px;
+    box-shadow: 1px 1px 3px #A6A6A6;
+}
+
+.gallery .grid-box .grid-item:hover {
+    cursor: pointer;
+    box-shadow: 5px 0px 20px gray;
+}
+
+.gallery .grid-box .grid-item .bottom {
+    width: 131px;
+    height: 35px;
+    padding-left: 15px;
+    position: relative;
+    background-color: #eff2f3;
+    bottom: 37px;
+}
+
+.gallery .grid-box .grid-item .bottom p {
+    color: #656565;
+    padding: 0px;
+    font-size: 13px;
+    display: inline;
+    text-align: center;
+}
+
+.gallery .grid-box .grid-item .top {
+    width: 146px;
+    height: 20px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.gallery .grid-box .grid-item .top span:last-child {
+    color: #DEDEDE;
+}
+
+.gallery .grid-box .grid-item .top span {
+    color: #FF8C37;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.gallery .grid-box .grid-item img {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.middleGallery .Viptop {
+    margin-left: 184px;
+    margin-top: 30px;
+    width: 117px;
+    border-left: 5px solid #84ae3e;
+    text-align: center;
+    margin-bottom: -50px;
+}
+
+.middleGallery .Vipbottom {
+    margin-left: 184px;
+    margin-top: 180px;
+    width: 117px;
+    border-left: 5px solid #84ae3e;
+    text-align: center;
+    margin-bottom: -50px;
+}
+
+.middleGallery .userlist {
+    padding-top: 40px;
+}
+
+.middleGallery .userlist ul {
+    display: grid;
+    padding-left: 30px;
+    list-style: none;
+    grid-template-columns: 160px 160px 160px 160px 160px;
+}
+
+.middleGallery .userlist ul li {
+    background-image: url(../img/userm.png);
+    background-repeat: no-repeat;
+    padding-left: 25px;
+}
+
+.middleGallery .middleVip {
+    margin-left: 184px;
+    margin-top: 15px;
+    width: 200px;
+    border-left: 5px solid #84ae3e;
+    text-align: center;
+    margin-bottom: -50px;
+}
+
+.middleGallery .grid-box {
+    width: 62%;
+    margin-left: 170px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.middleGallery .grid-box .grid-item {
+    width: 146px;
+    margin-left: 15px;
+    margin-top: 60px;
+    height: 130px;
+    box-shadow: 1px 1px 3px #A6A6A6;
+}
+
+.middleGallery .grid-box .grid-item:hover {
+    cursor: pointer;
+    box-shadow: 5px 0px 20px gray;
+}
+
+.middleGallery .grid-box .grid-item .bottom {
+    width: 131px;
+    height: 35px;
+    padding-left: 15px;
+    position: relative;
+    background-color: #eff2f3;
+    bottom: 37px;
+}
+
+.middleGallery .grid-box .grid-item .bottom p {
+    color: #656565;
+    padding: 0px;
+    font-size: 13px;
+    display: inline;
+    text-align: center;
+}
+
+.middleGallery .grid-box .grid-item .top {
+    width: 146px;
+    height: 20px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.middleGallery .grid-box .grid-item .top span {
+    color: #FF8C37;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.middleGallery .grid-box .grid-item img {
+    width: 100%;
+    height: 100%;
+}
+
+.middleGallery .grid-box .grid-item img img:last-child {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.middleGallery .hashtag {
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    position: relative;
+    top: 45px;
+    left: 30px;
+}
+
+.middleGallery .hashtag a {
+    color: black;
+    text-decoration-line: none;
+    border: 2px solid darkgray;
+}
+
+.footerBottom {
+    width: 100%;
+    height: 150px;
+    background-color: dimgray;
+    text-align: center;
+}
+
+.footerBottom .bannerBottom {
+    display: inline-block;
+    position: relative;
+    top: 45px;
+    right: 238px;
+}
+
+.footerBottom .bottomText {
+    width: 400px;
+    height: 90px;
+    margin-top: 38px;
+    color: white;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    left: 100px;
+}
+
+body {
+    margin: 0px;
+}
+
+body .clear {
+    clear: both;
+}
+
+body .container {
+    margin: 0 auto;
+    width: 63%;
+    margin-left: 150px;
+    height: 110px;
+    margin-top: 20px;
+    margin-top: 20px;
+}

@@ -1,0 +1,14 @@
+C:\Users\Atilla\source\repos\YeniEmlak\YeniEmlak\bin\Debug\netcoreapp2.1\YeniEmlak.deps.json
+C:\Users\Atilla\source\repos\YeniEmlak\YeniEmlak\bin\Debug\netcoreapp2.1\YeniEmlak.runtimeconfig.json
+C:\Users\Atilla\source\repos\YeniEmlak\YeniEmlak\bin\Debug\netcoreapp2.1\YeniEmlak.runtimeconfig.dev.json
+C:\Users\Atilla\source\repos\YeniEmlak\YeniEmlak\bin\Debug\netcoreapp2.1\YeniEmlak.dll
+C:\Users\Atilla\source\repos\YeniEmlak\YeniEmlak\obj\Debug\netcoreapp2.1\YeniEmlak.csprojAssemblyReference.cache
+C:\Users\Atilla\source\repos\YeniEmlak\YeniEmlak\obj\Debug\netcoreapp2.1\YeniEmlak.csproj.CoreCompileInputs.cache
+C:\Users\Atilla\source\repos\YeniEmlak\YeniEmlak\obj\Debug\netcoreapp2.1\YeniEmlak.RazorAssemblyInfo.cache
+C:\Users\Atilla\source\repos\YeniEmlak\YeniEmlak\obj\Debug\netcoreapp2.1\YeniEmlak.RazorAssemblyInfo.cs
+C:\Users\Atilla\source\repos\YeniEmlak\YeniEmlak\obj\Debug\netcoreapp2.1\YeniEmlak.AssemblyInfoInputs.cache
+C:\Users\Atilla\source\repos\YeniEmlak\YeniEmlak\obj\Debug\netcoreapp2.1\YeniEmlak.AssemblyInfo.cs
+C:\Users\Atilla\source\repos\YeniEmlak\YeniEmlak\obj\Debug\netcoreapp2.1\YeniEmlak.RazorTargetAssemblyInfo.cache
+C:\Users\Atilla\source\repos\YeniEmlak\YeniEmlak\bin\Debug\netcoreapp2.1\YeniEmlak.pdb
+C:\Users\Atilla\source\repos\YeniEmlak\YeniEmlak\obj\Debug\netcoreapp2.1\YeniEmlak.dll
+C:\Users\Atilla\source\repos\YeniEmlak\YeniEmlak\obj\Debug\netcoreapp2.1\YeniEmlak.pdb
